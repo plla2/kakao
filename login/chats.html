@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kakao Talk</title>
+    <script
+      src="https://kit.fontawesome.com/28b27c61fc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="status-bar.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar_columm">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar_columm">
+        <span>18:57</span>
+      </div>
+      <div class="status-bar_columm">
+        <span>97%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header-title">Chats</h1>
+      <div class="screen-header-icons">
+        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        <span><i class="fa-regular fa-comment-dots"></i></span>
+        <span><i class="fa-solid fa-music"></i></span>
+        <span><i class="fa-solid fa-gear"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component-column">
+            <img
+              src="kaka.png"
+              class="user-component-avatar user-component-avatar"
+            />
+            <div class="user-component-text">
+              <h4 class="user-component-title">KaKao Talk</h4>
+              <h6 class="user-component-subtitle">
+                Please check My Kakao Account Info
+              </h6>
+            </div>
+          </div>
+          <div class="user-component-column">
+            <span class="user-component-time">15:32</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-btn">
+          <a class="nav-link" href="friends.html"
+            ><i class="fa-solid fa-user"></i
+          ></a>
+        </li>
+        <li class="nav-btn">
+          <a class="nav-link" href="chats.html"
+            ><span class="nav-notification badge">1</span
+            ><i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav-btn">
+          <a class="nav-link" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+        </li>
+        <li class="nav-btn">
+          <a class="nav-link" href="more.html"
+            ><span class="nav-notification2"></span
+            ><i class="fa-solid fa-ellipsis"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

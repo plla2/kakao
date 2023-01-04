@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kakao Talk</title>
+    <script
+      src="https://kit.fontawesome.com/28b27c61fc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="status-bar.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar_columm">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar_columm">
+        <span>18:57</span>
+      </div>
+      <div class="status-bar_columm">
+        <span>97%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header-column">
+        <a href="chats.html"><i class="fa-solid fa-angle-left"></i></a>
+      </div>
+      <div class="alt-header-column">
+        <h1 class="alt-header-title">Nicolas Serrano</h1>
+      </div>
+      <div class="alt-header-column">
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-bars fa-2x"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat-timestamp">Wednesday, January 4, 2023</div>
+      <div class="message-row">
+        <img src="01.jpeg" />
+        <div class="message-row-content">
+          <span class="message-author">Nicolas</span>
+          <div class="message-info">
+            <span class="message-bubble">Hello!</span>
+            <span class="message-time">19:21</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row-own">
+        <div class="message-row-content">
+          <div class="message-info">
+            <span class="message-bubble">Hello! Nice to meet you!</span>
+            <span class="message-time">19:23</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply-column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+
+      <div class="reply-column">
+        <input type="text" placeholder="Write a message..." />
+        <i id="icon-push" class="fa-regular fa-face-laugh"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+  </body>
+</html>

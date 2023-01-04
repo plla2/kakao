@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kakao Talk</title>
+    <script
+      src="https://kit.fontawesome.com/28b27c61fc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="status-bar.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar_columm">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar_columm">
+        <span>18:57</span>
+      </div>
+      <div class="status-bar_columm">
+        <span>97%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header-title">Friends</h1>
+      <div class="screen-header-icons">
+        <span><i class="fa-sharp fa-solid fa-magnifying-glass"></i></span>
+        <span><i class="fa-solid fa-music"></i></span>
+        <span><i class="fa-solid fa-gear"></i></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link"
+      ><i class="fa-sharp fa-solid fa-circle-info"></i>Friend's Names Display
+      <i class="fa-solid fa-chevron-right"></i
+    ></a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component-column">
+          <img
+            src="emo.png"
+            class="user-component-avatar user-component-avatar-xl"
+          />
+          <div class="user-component-text">
+            <h4 class="user-component-title">plla2</h4>
+            <h6 class="user-component-title-subtitle">bamm!</h6>
+          </div>
+        </div>
+        <div class="user-component-column"></div>
+      </div>
+
+      <div class="friends-screen-channel">
+        <div class="friends-screen-channel-header">
+          <span>Channel</span><i class="fa-sharp fa-solid fa-chevron-up"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component-column">
+            <img
+              src="kaka.png"
+              class="user-component-avatar user-component-avatar-sm"
+            />
+            <div class="user-component-text">
+              <h4 class="user-component-title user-component-title-not-bold">
+                Channel
+              </h4>
+            </div>
+          </div>
+          <div class="user-component-column">
+            <span>2<i class="fas fa-chevron-right fa-xs"></i></span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-btn">
+          <a class="nav-link" href="friends.html"
+            ><i class="fa-solid fa-user"></i
+          ></a>
+        </li>
+        <li class="nav-btn">
+          <a class="nav-link" href="chats.html"
+            ><span class="nav-notification badge">1</span
+            ><i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav-btn">
+          <a class="nav-link" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+        </li>
+        <li class="nav-btn">
+          <a class="nav-link" href="more.html"
+            ><span class="nav-notification2"></span
+            ><i class="fa-solid fa-ellipsis"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="splash-screen">
+      <i class="fas fa-comment"></i>
+    </div>
+  </body>
+</html>
