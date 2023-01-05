@@ -7,13 +7,12 @@
 }
 
 .alt-header-title {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 600;
 }
 
 .alt-header-column:first-child {
   margin-right: auto;
-  font-size: 30px;
 }
 
 .alt-header-column:nth-child(2) {
